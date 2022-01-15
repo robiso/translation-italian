@@ -1,0 +1,89 @@
+OVERLAYS
+    ">Saving","> Salvataggio"
+    ">Checking for updates",">Controllo aggiornamenti"
+
+
+BUTTONS
+    "> Settings","> Impostazioni"
+
+
+MENU ITEMS
+    ">Current page",">Pagina corrente"
+    ">Menu",">Menu"
+    ">Files",">File"
+    ">Themes",">Temi"
+    ">Plugins",">Plugin"
+    ">Security",">Sicurezza"
+
+
+CURRENT PAGE
+    ">Page title",">Titolo della pagina"
+    ">Page keywords",">Parole chiave della pagina"
+    ">Page description",">Descrizione della pagina"
+    "> Delete page","> Elimina la pagina"
+    "return confirm\('Delete (.*?)\?'\)","return confirm('Eliminare $1?')"
+
+
+MENU
+    ">Website title","> Titolo del sito"
+    ">Page to display on homepage","> Pagina da visualizzare come pagina principale"
+    ">visit",">Visita"
+    "> Add page","> Aggiungi una pagina"
+
+
+FILES
+    ">Upload","> Carica"
+    ">Delete files","> Elimina i file"
+
+
+THEMES AND PLUGINS
+    "> Check for updates","> Controllo aggiornamenti"
+    "return confirm\('Remove (.*?)\?'\)","return confirm('Eliminare $1?')"
+    ">Active",">V Attivo"
+    "return confirm\('Activate (.*?) theme\?'\)","return confirm('Attivare $1?')"
+    "> Activate","> Attivar"
+    "> More info","> Maggiori informazioni"
+    "> Install","> Installq"
+    ">Installed version:",">Versione installata:"
+    ">Custom repository",">Cartella personalizzata"
+    "Enter URL to custom repository","Inserisci l'URL della cartella personalizzata"
+    "> Add", "> Aggiungi"
+    "> Read more about custom repositories",">Per saperne di più sulle cartelle personalizzate"
+
+
+SECURITY
+    ">Admin login URL","> URL di connessione per l'amministratore"
+    ">Save your login URL to log in to your website next time:",">Salvate il vostro URL di connessione per riconnetervi al vostro sito la prossima volta:"
+    ">Password",">Password"
+    "Old password","Vecchia password"
+    "New password","Nuova password"
+    "> Change password","> Modifica la password"
+
+    "> How to restore backup","> Come ripristinare un backup"
+    ">Improved security \(Apache only\)",">Sicurezza migliorata (solo Apache)"
+    ">HTTPS redirect, 30 day caching, iframes allowed only from same origin, mime type sniffing prevention, stricter cookie and refferer policy.",">Redirezione HTTPS, 30 giorni di cache, iframes autorizzati solo dalla stessa origine, prevenzione dallo sniffing dei mime type, politica più restrittiva sui cookie e sui referrer."
+    ">ON \(warning: may break your website\)",">ON (Attenzione: potrebbe far saltare il vostro sito)"
+    ">OFF \(reset htaccess to default\)",">OFF (ripristina il file htaccess predefinito)"
+    "> Read more before enabling","> Saperne di più prima dell'attivazione"
+    ">Backup","> Backup"
+    "> Backup website","> Backup del sito"
+    ">Last 5 logins",">Ultime 5 connessioni"
+
+
+STATISTICS
+    ">Statistics",">Statistiche"
+    ">Today",">Oggi"
+    ">This week",">Questa settimana"
+    ">Most popular page",">Pagina più popolare"
+    ">Pageviews last two weeks",">Visualizzazioni delle pagine nelle ultime due settimane"
+    ">Sessions last two weeks",">Sessioni nelle ultime due settimane"
+    ">Sessions",">Sessioni"
+    ">Pageviews",">Visualizzazioni"
+
+
+FOOTER
+    ">News",">Notizie"
+    ">Community",">Forum"
+    ">Docs",">Documentazione"
+    ">Donate",">Donazioni"
+    ">Shop\/Merch",">Negozio/Merchandising"
