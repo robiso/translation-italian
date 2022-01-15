@@ -1,5 +1,5 @@
-<p align="center"><img src="preview-it.jpg?v=3" /></p>
-<h1 align="center">language-fr</h1>
+<p align="center"><img src="preview.jpg?v=3" /></p>
+<h1 align="center">language-it</h1>
 <p align="center">Italian translations for WonderCMS (by Giacomo Margarito)</p>
 
 <br><br>
@@ -14,8 +14,7 @@ This plugin adds French translations to the WonderCMS admin area, based on "http
 
 
 ## How this works
-The translations are all in the si_SL.csv file. Why in CVS? That's how all
-other major CMSes do it, so there must be a good reason for it.
+The translations are all in the si_SL.csv file. Why in CVS? That's how all other major CMSes do it, so there must be a good reason for it.
 
 You will see something like this a lot: 
 
