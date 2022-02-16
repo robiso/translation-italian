@@ -4,7 +4,7 @@
 
 <br><br>
 
-This plugin adds French translations to the WonderCMS admin area, based on "https://github.com/RenaudILTIS/translation-french" . Plugin author: Renaud ILTIS.
+This plugin adds Italian translations to the WonderCMS admin area, based on "https://github.com/RenaudILTIS/translation-french" . Plugin author: Renaud ILTIS.
 
 
 ## How to use
