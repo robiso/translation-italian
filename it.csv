@@ -41,7 +41,7 @@ THEMES AND PLUGINS
     "return confirm\('Remove (.*?)\?'\)","return confirm('Eliminare $1?')"
     ">Active",">V Attivo"
     "return confirm\('Activate (.*?) theme\?'\)","return confirm('Attivare $1?')"
-    "> Activate","> Attivare"
+    "> Activate","> Attiva"
     "> More info","> Maggiori informazioni"
     "> Install","> Installa"
     ">Installed version:",">Versione installata:"
