@@ -5,6 +5,7 @@ OVERLAYS
 
 BUTTONS
     "> Settings","> Impostazioni"
+    "return confirm\('Log out\?'\)","return confirm('Disconnettersi?')"
 
 
 MENU ITEMS
@@ -29,6 +30,10 @@ MENU
     ">Website title","> Titolo del sito"
     ">Page to display on homepage","> Pagina da visualizzare come pagina principale"
     ">visit",">Visita"
+    "title=""Make page private \(only you see it while logged in\)""","title=""Rendi privata la pagina (la vedi solo tu quando hai effettuato l'accesso)"""
+    "title=""Make page public""","title=""Rendi pubblica la pagina"""
+    "lockIcon""><\/i> private<\/a>","lockIcon""></i> privata</a>"
+    "lockIcon""><\/i> public<\/a>","lockIcon""></i> pubblica</a>"
     "> Add page","> Aggiungi una pagina"
 
 
@@ -39,17 +44,24 @@ FILES
 
 THEMES AND PLUGINS
     "> Check for updates","> Controllo aggiornamenti"
+    "title=""Remove this repository from the list""","title=""Rimuovi questo repository dall'elenco"""
+    "data-confirm=""Remove (.*?)\? Anything installed from it stays\.""","data-confirm=""Rimuovere $1? Quanto installato da questo repository resta al suo posto."""
     "return confirm\('Remove (.*?)\?'\)","return confirm('Eliminare $1?')"
     "data-confirm=""Remove (.*?)\?""","data-confirm=""Eliminare $1?"""
     ">Active",">V Attivo"
     "return confirm\('Activate (.*?) theme\?'\)","return confirm('Attivare $1?')"
     "data-confirm=""Activate (.*?) theme\?""","data-confirm=""Attivare $1?"""
+    "data-confirm=""Disable (.*?)\?""","data-confirm=""Disattivare $1?"""
+    "data-confirm=""This is an (.*?) plugin\. Installing (.*?) will disable (.*?)\. Continue\?""","data-confirm=""Questo è un plugin di tipo $1. Installare $2 disattiverà $3. Continuare?"""
+    "data-confirm=""This is an (.*?) plugin\. Updating (.*?) will keep it enabled and disable (.*?)\. Continue\?""","data-confirm=""Questo è un plugin di tipo $1. Aggiornare $2 lo lascerà attivo e disattiverà $3. Continuare?"""
+    "data-confirm=""This is an (.*?) plugin\. Enabling (.*?) will disable (.*?)\. Continue\?""","data-confirm=""Questo è un plugin di tipo $1. Attivare $2 disattiverà $3. Continuare?"""
     "> Activate","> Attiva"
     "> More info","> Maggiori informazioni"
     "> Install","> Installa"
     ">Installed version:",">Versione installata:"
     ">Custom repository",">Cartella personalizzata"
     "Enter URL to custom repository","Inserisci l'URL della cartella personalizzata"
+    "return confirm\('Adding unknown modules can be VERY dangerous, are you sure you want to continue\?'\)","return confirm('Aggiungere moduli sconosciuti può essere MOLTO pericoloso, continuare davvero?')"
     "> Add", "> Aggiungi"
     "> Read more about custom repositories",">Per saperne di più sulle cartelle personalizzate"
 
@@ -67,6 +79,7 @@ SECURITY
     ">HTTPS redirect, 30 day caching, iframes allowed only from same origin, mime type sniffing prevention, stricter cookie and refferer policy.",">Redirezione HTTPS, 30 giorni di cache, iframes autorizzati solo dalla stessa origine, prevenzione dallo sniffing dei mime type, politica più restrittiva sui cookie e sui referrer."
     ">ON \(warning: may break your website\)",">ON (Attenzione: potrebbe far saltare il vostro sito)"
     ">OFF \(reset htaccess to default\)",">OFF (ripristina il file htaccess predefinito)"
+    "return confirm\('Are you sure\? This might break your website if you do not have SSL configured correctly\.'\)","return confirm('Confermi? Il sito potrebbe smettere di funzionare se SSL non è configurato correttamente.')"
     "> Read more before enabling","> Saperne di più prima dell'attivazione"
     ">Backup","> Backup"
     "> Backup website","> Backup del sito"
